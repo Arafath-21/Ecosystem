@@ -1,6 +1,6 @@
 # Ecosystem
 
-Live Preview : 
+Live Preview : https://benevolent-faloodeh-fea9f6.netlify.app/
 
 *____first create a json file with deafult values and install the dependencies according to the need
 
