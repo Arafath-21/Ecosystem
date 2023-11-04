@@ -1,0 +1,57 @@
+@use'../custom' as *;
+@use'../components/mixins' as *;
+
+.explore{
+    @include gradient;
+    // padding-bottom: 9px;
+
+    &__heading{
+        color: #000;
+        font-family: 'Inter', sans-serif;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;        
+    }
+
+    &__btn{
+        color: #FFF;
+        text-align: center;
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: capitalize;        
+    }
+
+    &--card{
+        @include gradient;
+        border: none;
+        border-radius: 50px;
+        padding: 25px;
+
+        &--card-img{
+            width: 100%;
+        }    
+        &--card-body{
+            width: 700px;
+            height: 200px;
+            padding: 20px;
+        }    
+        .card-title{
+            text-align: center;
+            font-size: 24px;
+            font-weight: 400;
+            text-transform: capitalize;   
+        }  
+    }
+    .bi-arrow-right-circle{
+        text-align: center;  
+        font-size: 30px;                    
+    } 
+}
+
+.card-man{
+    padding-bottom: 15px;
+}

@@ -1,0 +1,33 @@
+@use'../custom'as*;
+@use'../components/mixins'as*;
+
+
+.greenWorld{
+    font-family: 'Inter', sans-serif;
+
+    &__card{
+        margin: 0 25px;
+        height: 100%;
+        width: 100%;
+        border: none;
+        padding-bottom: 50px;
+    }
+    &__card-img{
+        width: 120px;
+        height: 120px;
+        margin: 0 auto;
+    }
+    &__cardTitle{
+        color: #000;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: normal;        
+    }
+    &__cardText{
+        color: #525252;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 36px;
+    }
+}

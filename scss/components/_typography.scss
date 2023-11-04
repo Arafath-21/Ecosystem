@@ -1,0 +1,29 @@
+@use'../custom'as*;
+@use'../components/functions'as*;
+
+.mark-margin{
+    width: 760px;
+    margin: 5px auto;
+    .display-2 {
+        margin-bottom:16px auto;
+        text-transform: capitalize;
+        font-family: 'Inter', sans-serif;
+        &--intro {
+            display: inline-block;
+            font-weight: 800;
+            font-family: 'Inter', sans-serif;
+            font-size: 54px;
+        }
+    
+        &--description {
+            // color: rgba(14, 14, 14, 0.81);
+            text-align: center;
+            font-family: 'Inter', sans-serif;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 36px;
+            display: block;        
+        }
+    }
+}
+

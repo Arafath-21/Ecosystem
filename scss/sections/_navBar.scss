@@ -1,0 +1,38 @@
+@use'../custom' as *;
+@use'../components/mixins' as *;
+@use'../components/functions'as*;
+
+.navbar{
+    @include gradient;    
+} 
+.navbar-collapse{
+    ul{
+        li{
+            color: #121212;
+            text-align: center;
+            font-family: 'Sora', sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: bold;
+            line-height: 20px; /* 125% */
+            text-transform: capitalize;
+        }
+    }
+} 
+.menu{
+    .container{
+        .navbar-brand{
+            color: #121212;
+            font-family: 'Sora', sans-serif;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 37px;
+            i{
+                width: 31px;
+                height: 35px;
+                gap: 16px;
+            }
+        }
+    }
+}

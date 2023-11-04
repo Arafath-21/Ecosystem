@@ -1,0 +1,59 @@
+@use'../custom' as *;
+@use'../components/mixins' as *;
+
+.community {
+    @include gradient;
+    // padding-top: 50px;
+
+    &__header {
+        text-align: center;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 30px;
+    }
+
+    &__positions {
+        padding: 5px;
+        margin: 5px;
+        min-height: 50px; /* Add a minimum height for the container */
+        position: relative; /* Add relative positioning to the container */
+    }
+
+    &__subscribeDesc {
+        color: #000;
+        font-size: 24px;
+        margin-top: -30px;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: capitalize;
+    }
+
+    &__search {
+        padding: 8px 8px 8px 16px;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 20px;
+        border: none;
+        position: relative;
+        height: auto;
+        width: 100%;
+    }
+
+    &__btn {
+        position: absolute;
+        top: 50%; /* Adjust the top position to center the button vertically */
+        right: 7px; /* Adjust the right position to leave some space from the right edge */
+        transform: translateY(-25%); /* Center the button vertically */
+        color: #FFF;
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: capitalize;        
+    }
+}

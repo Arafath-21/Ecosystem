@@ -1,0 +1,18 @@
+
+@use'./custom';
+
+// IMPORT THE COMPONENTS 
+@use 'components/functions';
+@use 'components/buttons';
+@use 'components/mixins';
+@use 'components/typography';
+
+// import the section
+
+@use'./sections/navBar';
+@use'sections/landingPage';
+@use'sections/companies';
+@use'sections/exploring';
+@use'sections/greenerWorld';
+@use'sections/community';
+@use'sections/FAQ';
